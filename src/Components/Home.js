@@ -13,14 +13,7 @@ function Home() {
       <div className="relative min-h-screen bg-gradient-to-r from-[#EEE3BF] via-[#F4EBD2] to-[#EEE3BF] flex flex-col pt-20 sm:pt-32 items-center text-center p-4">
         {/* Background Video Container */}
         <div className="absolute inset-0 w-full h-full z-10">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="bg-video"
-            poster={bis}
-          >
+          <video autoPlay loop muted playsInline className="bg-video">
             <source src={bgVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
