@@ -39,7 +39,7 @@ function Home() {
 
           <p className="text-orange-800 text-sm sm:text-base mt-2 max-w-sm">
             Request the pleasure of your company with family & relatives on the
-            auspicious occasion of the wedding ceremony of their daughter:
+            auspicious occasion of the wedding ceremony of their daughter.
           </p>
 
           <div className="flex justify-center items-center mt-3">
@@ -76,7 +76,7 @@ function Home() {
               Insha Allah Nikah
             </h1>
             <p className="text-sm font-serif text-gray-800">
-              On Saturday, 12th November 2024 at 11:30 A.M.
+              On Tuesday, 12th November 2024 at 11:30 A.M.
             </p>
             <p className="text-sm font-serif text-gray-800 mt-2">
               Nikah at:{" "}
