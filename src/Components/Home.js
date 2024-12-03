@@ -13,7 +13,14 @@ function Home() {
       <div className="relative min-h-screen bg-gradient-to-r from-[#EEE3BF] via-[#F4EBD2] to-[#EEE3BF] flex flex-col pt-20 sm:pt-32 items-center text-center p-4">
         {/* Background Video Container */}
         <div className="absolute inset-0 w-full h-full z-10">
-          <video autoPlay loop muted playsInline className="bg-videos">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="bg-video"
+            poster={bis}
+          >
             <source src={bgVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -27,12 +34,12 @@ function Home() {
             className="w-24 sm:w-32 md:w-48 h-auto mt-4"
           />
           <h1 className="text-orange-950 text-lg sm:text-2xl md:text-3xl font-bold mt-3">
-            Mr. & Mrs. Aqueel Md. Ayyub Ansari & Family
+            Mr. & Mrs. Pathan family and friends
           </h1>
 
           <p className="text-orange-800 text-sm sm:text-base mt-2 max-w-sm">
             Request the pleasure of your company with family & relatives on the
-            auspicious occasion of the wedding ceremony of their daughter.
+            auspicious occasion of the wedding ceremony of their daughter:
           </p>
 
           <div className="flex justify-center items-center mt-3">
@@ -45,18 +52,18 @@ function Home() {
 
           <div className="mt-6 flex flex-col sm:flex-row justify-between w-full max-w-xl text-center">
             <div className="flex flex-col items-center mb-4">
-              <h1 className="text-3xl font-cursive text-[#8B5A2B]">Firdous</h1>
+              <h1 className="text-3xl font-cursive text-[#8B5A2B]">Adiba</h1>
               <p className="text-sm text-orange-800 mt-2">
-                D/o. Aqueel Md. Ayyub Ansari, Nandgaon (Nashik)
+                D/o. Aslam (Baba) Pathan, Nandgaon (Nashik)
               </p>
             </div>
 
             <img src={weds} alt="weds" className="w-24 my-3 mx-auto" />
 
             <div className="flex flex-col items-center mt-4">
-              <h1 className="text-3xl font-cursive text-[#8B5A2B]">Ahtesham</h1>
+              <h1 className="text-3xl font-cursive text-[#8B5A2B]">Aftab</h1>
               <p className="text-sm text-orange-800 mt-2">
-                S/o. Haji Ab. Rasheed Ab. Hameed, Aurangabad
+                S/o. of Naimoddin Kazi, chalisgaon
               </p>
             </div>
           </div>
@@ -69,22 +76,20 @@ function Home() {
               Insha Allah Nikah
             </h1>
             <p className="text-sm font-serif text-gray-800">
-              On Tuesday, 12th November 2024 at 11:30 A.M.
+              On Sunday 8th December 2024 at 11:30 A.M.
             </p>
             <p className="text-sm font-serif text-gray-800 mt-2">
-              Nikah at:{" "}
-              <strong>Jama Masjid (Markaz) Nandgaon Dist. Nashik</strong>
+              Nikah at: <strong>krushnaee Lawns Nandgaon Dist. Nashik</strong>
             </p>
             <p className="text-sm font-serif text-gray-800 mt-2">
-              Lunch at:{" "}
-              <strong>Dolfin Ground, (Nutan Club) Nandgaon Dist. Nashik</strong>
+              Lunch at: <strong>Krushnaee lawns Nandgaon Dist. Nashik</strong>
             </p>
             <p className="text-sm font-serif text-gray-800 mt-4">
-              Invite: <strong>Aqueel Md. Ayyub Ansari</strong>
+              Invite: <strong>Pathan family and friends</strong>
             </p>
-            <p className="text-sm font-serif text-gray-800">
+            {/* <p className="text-sm font-serif text-gray-800">
               Relatives & Friends
-            </p>
+            </p> */}
           </div>
 
           <img
