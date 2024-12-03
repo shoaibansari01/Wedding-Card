@@ -19,7 +19,7 @@ function Home() {
             muted
             playsInline
             className="bg-video"
-            poster={bis}
+            
           >
             <source src={bgVideo} type="video/mp4" />
             Your browser does not support the video tag.
